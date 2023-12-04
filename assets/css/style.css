@@ -1,0 +1,32 @@
+:root {
+    --greyBlue:#3E567C;
+    --lightBlue:#A7BBCB;
+    --lightgreyBlue:#8CA0B1;
+    --grey:#C0C0C0;
+}
+
+body {
+    background-color: var(--grey);
+}
+
+/* Navbar style */
+
+.myNavbar {
+    background-color: var(--greyBlue);
+}
+
+.myNavbar a {
+    color: white;
+}
+/* Hero Section style */
+
+.heroSection {
+    height: 20em;
+}
+
+.hero-image {
+    position: absolute;
+    height: 15em;
+    bottom: 2.5em;
+    left: 78%;
+}

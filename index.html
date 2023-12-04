@@ -4,26 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="../Bootstrap-Portofolio/assets/css/style.css">
     <title>Alexandru's Bootstrap Portofolio</title>
 </head>
 <body>
 
     <!-- Navbar -->
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg myNavbar position-sticky-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Alexandru Pandelea</a>
+          <a class="navbar-brand ms-4" href="#">Alexandru Pandelea</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <div class="collapse navbar-collapse justify-content-end me-4" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Work</a>
+                <a class="nav-link " aria-current="page" href="#">Work</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
+                <a class="nav-link " href="#">Skills</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">About me</a>
@@ -35,19 +35,20 @@
 
     <!-- Hero section -->
 
-    <div class="heroSection container">
-        <h1>Hero section image</h1>
+    <div class="heroSection p-5 m-4 text-bg-dark rounded position-relative">
+        <h1>Come see my work!</h1>
+        <img src="../Bootstrap-Portofolio/assets/images/me.jpg" alt="picture of Alexandru" class="rounded hero-image">
     </div>
 
     <!-- Work -->
 
-    <div class="container-fluid">
+    <div class="container-fluid m-4 p-5 text-bg-dark rounded w-auto">
         <div class="row" id="work">
-            <div class="col-3">
+            <div class="col-sm-3">
                 <h2>Work</h2>
             </div>
-            <div class="col-9">
-                <div class="card my-3" style="width: auto;">
+            <div class="col-sm-9">
+                <div class="card mb-4 w-auto">
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
@@ -56,10 +57,11 @@
                     </div>
                 </div>
             </div>
+        </div>
         <div class="row">
-            <div class="col-3"></div>
-            <div class="col">
-                <div class="card" style="width: auto;">
+            <div class="col-sm-3"></div>
+            <div class="col-sm">
+                <div class="card w-auto">
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
@@ -68,8 +70,8 @@
                     </div>
                   </div>
             </div>
-            <div class="col">
-                <div class="card" style="width: auto;">
+            <div class="col-sm">
+                <div class="card w-auto">
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
@@ -79,7 +81,7 @@
                   </div>
             </div>
         </div>
-        </div>
+    </div>
 
      <!-- Skills section -->
 
@@ -100,7 +102,6 @@
             </div>
             <div class="col-9">Test</div>
         </div>
-    </div>
 
     <!-- Footer -->
 
