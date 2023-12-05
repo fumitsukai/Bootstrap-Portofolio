@@ -13,6 +13,7 @@ body {
 
 .myNavbar {
     background-color: var(--greyBlue);
+    position:sticky;
 }
 
 .myNavbar a {
@@ -48,4 +49,31 @@ body {
 
 #skills ul {
     list-style: none;
+}
+
+/* Footer */
+
+footer {
+    border-top: 1px solid rgb(33,34,41);
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+}
+
+i:hover {
+    color: var(--greyBlue);
+    text-shadow:1px 2px 30px #3E567C;
+    --webkit-text-shadow:1px 2px 30px var(var(--greyBlue))
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(33,34,41,0.9);
+    align-self: center;
+}
+
+@media screen and (max-width:768px) {
+    .heroSection {
+        display: none;
+    }
 }
