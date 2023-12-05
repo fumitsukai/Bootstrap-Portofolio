@@ -30,3 +30,16 @@ body {
     bottom: 2.5em;
     left: 78%;
 }
+
+/* Work section style */
+
+.myCard {
+    text-align: center;
+    background-color: var(--lightgreyBlue);
+}
+
+.card-img-top {
+    object-fit: cover;
+    width: 100%;
+    height: 30vh;
+}
