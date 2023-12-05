@@ -43,3 +43,9 @@ body {
     width: 100%;
     height: 30vh;
 }
+
+/* Skills section style */
+
+#skills ul {
+    list-style: none;
+}
